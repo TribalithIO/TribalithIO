@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="resources/images/OpenFrontLogoDark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="resources/images/OpenFrontLogo.svg">
-    <img src="resources/images/OpenFrontLogo.svg" alt="TribalithIO Logo" width="300">
+    <source media="(prefers-color-scheme: dark)" srcset="resources/images/TribalithLogo.svg">
+    <source media="(prefers-color-scheme: light)" srcset="resources/images/TribalithLogo.svg">
+    <img src="resources/images/TribalithLogo.svg" alt="TribalithIO Logo" width="300">
   </picture>
 </p>
 
