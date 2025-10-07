@@ -129,7 +129,7 @@ This project is licensed under the terms found in the [LICENSE](LICENSE) file.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Request to join the development [OpenFront Discord](https://discord.gg/K9zernJB5z) [Tribalith Discord](https://discord.gg/rrM7WBsvJf).
+1. Request to join the development at [OpenFront Discord](https://discord.gg/K9zernJB5z) or the [Tribalith Discord](https://discord.gg/rrM7WBsvJf).
 1. Fork the repository
 1. Create your feature branch (`git checkout -b amazing-feature`)
 1. Commit your changes (`git commit -m 'Add some amazing feature'`)
@@ -138,19 +138,19 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 🌐 Translation
 
-Translators are welcome! Please feel free to help translate into your language.
+Translators are welcome! Please feel free to help translate the original game (OpenFront.io) into your language.
 How to help?
 
-1. Request to join the dev [OpenFront Discord](https://discord.gg/K9zernJB5z) (in the application form, say you want to help translate)
+1. Request to join the OpenFront dev [Discord](https://discord.gg/K9zernJB5z) (in the application form, say you want to help translate)
 1. Go to the original project's (OpenFront.io) Crowdin translation page: [https://crowdin.com/project/openfront-mls](https://crowdin.com/project/openfront-mls)
 1. Login if you already have an account/ Sign up if you don't have one
 1. Select the language you want to translate in/ If your language isn't on the list, click the "Request New Language" button and enter the language you want added there.
 1. Translate the strings
 
-### Project Governance
+### Project Governance for Tribalith.io
 
 - The project maintainer ([antecker](https://github.com/TribalithIO)) has final authority on all code changes and design decisions
-- All pull requests require maintainer approval before merging
+- All pull requests require maintainer approval before merging 
 - The maintainer reserves the right to reject contributions that don't align with the project's vision or quality standards
 
 ### Contribution Path for New Contributors
