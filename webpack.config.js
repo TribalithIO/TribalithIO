@@ -75,10 +75,7 @@ export default async (env, argv) => {
             filename: "images/[name].[contenthash][ext]", // Added content hash
           },
         },
-        {
-          test: /\.html$/,
-          use: ["html-loader"],
-        },
+        // Removed html-loader to prevent rewriting image src attributes in index.html
         {
           test: /\.svg$/,
           type: "asset/resource", // Changed from asset/inline for caching
