@@ -141,8 +141,28 @@ export default async (env, argv) => {
       new CopyPlugin({
         patterns: [
           {
-            from: path.resolve(__dirname, "resources"),
-            to: path.resolve(__dirname, "static"),
+            from: path.resolve(__dirname, "resources/images"),
+            to: path.resolve(__dirname, "static/images"),
+            noErrorOnMissing: true,
+          },
+          {
+            from: path.resolve(__dirname, "resources/flags"),
+            to: path.resolve(__dirname, "static/flags"),
+            noErrorOnMissing: true,
+          },
+          {
+            from: path.resolve(__dirname, "resources/sounds"),
+            to: path.resolve(__dirname, "static/sounds"),
+            noErrorOnMissing: true,
+          },
+          {
+            from: path.resolve(__dirname, "resources/fonts"),
+            to: path.resolve(__dirname, "static/fonts"),
+            noErrorOnMissing: true,
+          },
+          {
+            from: path.resolve(__dirname, "resources/icons"),
+            to: path.resolve(__dirname, "static/icons"),
             noErrorOnMissing: true,
           },
           {
@@ -189,7 +209,6 @@ export default async (env, argv) => {
               changeOrigin: true,
               logLevel: "debug",
             },
-            // Worker WebSocket proxies - using direct paths without /socket suffix
             {
               context: ["/w0"],
               target: "ws://localhost:3001",
