@@ -85,7 +85,7 @@ export class NewsModal extends LitElement {
         <div>
           ${translateText("news.see_all_releases")}
           <a
-            href="https://github.com/openfrontio/OpenFrontIO/releases"
+            href="https://github.com/tribalithio/TribalithIO/releases"
             target="_blank"
             >${translateText("news.github_link")}</a
           >.
@@ -108,14 +108,14 @@ export class NewsModal extends LitElement {
         .then((markdown) =>
           markdown
             .replace(
-              /(?<!\()\bhttps:\/\/github\.com\/openfrontio\/OpenFrontIO\/pull\/(\d+)\b/g,
+              /(?<!\()\bhttps:\/\/github\.com\/tribalithio\/TribalithIO\/pull\/(\d+)\b/g,
               (_match, prNumber) =>
-                `[#${prNumber}](https://github.com/openfrontio/OpenFrontIO/pull/${prNumber})`,
+                `[#${prNumber}](https://github.com/tribalithio/TribalithIO/pull/${prNumber})`,
             )
             .replace(
-              /(?<!\()\bhttps:\/\/github\.com\/openfrontio\/OpenFrontIO\/compare\/([\w.-]+)\b/g,
+              /(?<!\()\bhttps:\/\/github\.com\/tribalithio\/TribalithIO\/compare\/([\w.-]+)\b/g,
               (_match, comparison) =>
-                `[${comparison}](https://github.com/openfrontio/OpenFrontIO/compare/${comparison})`,
+                `[${comparison}](https://github.com/tribalithio/TribalithIO/compare/${comparison})`,
             ),
         )
         .then((markdown) => (this.markdown = markdown));
